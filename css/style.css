@@ -111,12 +111,14 @@ span, a{
     transition: 0.8s all;
     text-align: center;
     cursor: pointer;
-    text-decoration: none;
+    /* text-decoration: none; */
   }
 
 .button:hover{
     box-shadow: inset 12em 0 0 0 #fff;
     color: #1957f3;
+    text-decoration: none;
+
 }
 
 /*** navbar css ***/
@@ -185,6 +187,9 @@ html{
     outline: none;
     box-shadow: none;
 }
+
+
+
 /*** banner section css***/
 
 .banner{
